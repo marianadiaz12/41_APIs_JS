@@ -1,0 +1,17 @@
+*{
+  background-color: #045FB4;
+}
+ #añadirLista{
+ 	margin-top: 2%;
+ }
+#inputTitulo{
+	background-color: white;
+	display: block;
+	height: 5%;
+}
+#textarea{
+	background-color: white;
+}
+#inicioLista{
+	padding: 2%;
+}
