@@ -52,4 +52,10 @@ function newList(){
   		}
   		document.getElementById("inputTitulo").value = "";
 	});
+	
+	eliminar.onclick=function(){
+		inputTitulo.parentNode.removeChild(inputTitulo);
+		btnGuardar.parentNode.removeChild(btnGuardar);
+		eliminar.parentNode.removeChild(eliminar);
+	}
 }
